@@ -13,8 +13,8 @@ def cube_elems_to_edges(elems):
     edges = np.zeros([2,N*12])
     for i in range(N):
         new_idx = np.arange(i*12, (i+1)*12)
-        edges[0, new_idx] = elems[i, edge_A]
-        edges[1, new_idx] = elems[i, edge_B]
+        edges[0, new_idx] = elems[i, edge_A]-1
+        edges[1, new_idx] = elems[i, edge_B]-1
 
     edges = np.sort(edges, axis=0)
     edges = np.unique(edges, axis=1)

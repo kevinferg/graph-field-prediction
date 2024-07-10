@@ -104,7 +104,7 @@ def kdtree_cluster(xy, factor = 4, dimension = 3):
     return clusters, pts
 
 class Coarsen:
-    def __init__(self, graph, N, factor = 4, node_method="KDTree", edge_method="KNN", z_threshold=1, k=12, dimension = 3, replace_edges=True):
+    def __init__(self, graph, N, factor = 4, node_method="KDTree", edge_method="KNN", z_threshold=1, k=12, dimension = 3, replace_edges=False):
         if edge_method == "DT":
             edgefun = lambda xy: get_dt_edges(xy, z_threshold)
         else: # "KNN"
