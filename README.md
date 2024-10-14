@@ -21,7 +21,8 @@ Set up a Python virtual environment that has the necessary requirements with the
 cd graph-field-prediction
 python -m venv ./
 source ./bin/activate
-pip install -r requirements.txt
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.13.0+cu116.html
 ```
 
 - The [2d/](2d/) folder contains code for training models on the 2-D stress prediction dataset.
