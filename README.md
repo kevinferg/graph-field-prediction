@@ -4,8 +4,8 @@
 
 #### Authors
 _Kevin Ferguson_, Carnegie Mellon University  
-Yu-hsuan Chen, Carnegie Mellon University
-Yiming Chen, Carnegie Mellon University
+Yu-hsuan Chen, Carnegie Mellon University   
+Yiming Chen, Carnegie Mellon University   
 James Hardin, Air Force Research Lab  
 Andrew Gillman, Air Force Research Lab  
 Levent Burak Kara, Carnegie Mellon University  
