@@ -42,11 +42,12 @@ BibTex:
 ```
 
 
-## Dataset
+## Dataset and Model Weights
 The dataset is currently available via this [Google Drive link](https://drive.google.com/file/d/1cWVClc2hmC7Zvb24OqYGH0fYzAzErq1a/view?usp=sharing).  
 
 Instructions for how to use it are [here](3d/README.md).
 
+Several of the PyTorch model files are available via this other [Google Drive link](https://drive.google.com/file/d/1pwNYRsClrAC2hbqqY3Zuv8tPJumZHOnc/view?usp=sharing). The [`3d/get_results.ipynb`](3d/get_results.ipynb) notebook contains some code for loading and evaluating these models, although it's somewhat disorganized. 
 
 
 ## Usage
